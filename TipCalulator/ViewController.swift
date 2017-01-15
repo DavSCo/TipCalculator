@@ -83,7 +83,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         montantFactureTextField.text = ""
     }
     
-    // Function qui nous permet de retirer le clavier lorsqu'ont touche une partie de l'ecran. 
+    // Function qui nous permet de retirer le clavier lorsqu'ont touche une partie de l'écran. 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         self.view.endEditing(true)
